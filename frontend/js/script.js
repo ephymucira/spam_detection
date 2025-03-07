@@ -10,7 +10,7 @@ document.getElementById("emailForm").addEventListener("submit", async function(e
     showPopup("Analyzing...");
 
     try {
-        const response = await fetch("http://127.0.0.1:5000/predict", { // Set your API URL
+        const response = await fetch("http://127.0.0.1:5000/predict", { 
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
