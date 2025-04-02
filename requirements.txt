@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 flask
 flask-cors
 scikit-learn
 nltk
 numpy
 pandas
+=======
+pandas
+scikit-learn
+seaborn
+matplotlib
+flask
+wordcloud
+>>>>>>> main
