@@ -18,6 +18,7 @@ document.getElementById("emailForm").addEventListener("submit", async function(e
             body: JSON.stringify({ email: emailContent })
         });
 
+        
         const data = await response.json();
         if (response.ok) {
             const isSpam = data.prediction.toLowerCase() === "spam";
